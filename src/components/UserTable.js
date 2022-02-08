@@ -1,20 +1,23 @@
 import React from "react";
+import "../assets/style/userTable.css"
 
 const UserTable = (props) => (
   <table>
     <thead>
       <tr>
+      
         <th>Name</th>
         <th>Username</th>
         <th>Actions</th>
       </tr>
     </thead>
     <tbody>
-      <hr/>
+     
       {props.users.length > 0 ? (
         props.users.map((user) => (
           <tr key={user.id}>
-            <td> 💎 {user.name}</td>
+            
+            <td><button> 💎 </button> {user.name}</td>
             <td> {user.username}</td>
             <td>
               <button

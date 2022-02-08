@@ -1,3 +1,20 @@
- .formContainer{
-    background-color: rgb(243, 63, 3);
-} 
+
+label{
+   padding: 5px;
+   margin: 5px;
+
+}
+
+input, button{
+    
+    color:rgb(71, 71, 71);
+    padding: 8px;
+    margin: 10px;
+    background: linear-gradient(135.37deg, rgba(166, 193, 212, 0.4) 4.29%, rgba(133, 127, 160, 0.4) 95.6%), #e3effd;
+    background-blend-mode: soft-light, normal;
+    border: 1px solid #c2cde7;
+    box-sizing: border-box;
+    box-shadow: -1px -1px 5px #b6bcd4, 1px 1px 5px #f573ee;
+    border-radius: 40px;
+
+}

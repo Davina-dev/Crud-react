@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import "../assets/style/editUser.css";
 
 const EditUserForm = (props) => {
   const [user, setUser] = useState(props.currentUser)

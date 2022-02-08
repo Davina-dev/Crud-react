@@ -1,0 +1,14 @@
+
+tbody{
+     color:rgb(71, 71, 71);
+  color: rgba(68, 26, 116, 0.822);
+  font-weight:bold;
+}
+
+th{
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.103);
+    margin-left: 30px;
+    padding-right:30px;
+}
+
